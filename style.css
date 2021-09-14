@@ -1,0 +1,356 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.jon-header{}
+.jon-header a.navbar-brand {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 52px;
+}
+.jon-header span {
+    background: #6176db;
+    color: white;
+    width: 33px;
+    display: inline-block;
+    height: 39px;
+    text-align: center;
+    /* line-height: 64px; */
+    font-size: 26px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+.jon-menu a.nav-link {
+    color: black !important;
+    font-size: 15px;
+    display: block;
+}
+/* slider-section css start*/
+.slider-section{
+background: url(img/asset\ 13.jpeg) no-repeat center center;
+padding: 200px 0;
+position: relative;
+z-index: 1;
+}
+.slider-section::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.301);
+    z-index: -1;
+
+
+}
+.slider-caption .form-control {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 1px solid #5ba533;
+    transition: .4s;
+}
+.slider-caption .form-control:focus{
+    box-shadow: 1px 0px 13px 3px #6278df !important;
+}
+.slider-caption .btn {
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 13px 57px;
+    background: #6eaf4b;
+    border: 0;
+    transition: .4s;
+
+}
+.slider-caption .btn:focus{
+    outline: none;
+}
+.slider-caption .btn:hover {
+    background: #fff;
+    color: #6278df;
+    box-shadow: 1px 0px 13px 3px #6278df;
+}
+img{
+    max-width: 100%;
+}
+.slider-section{}
+.slider-caption{}
+.slider-caption h3{}
+.slider-caption h1{}
+/* slider-section css end*/
+/* number counter section start */
+.number-counter{}
+.number-counter-item{}
+.number-counter-item h2 {
+    font-size: 41px;
+    font-weight: 600;
+}
+.number-counter-item h6{}
+/* number counter section
+ end */
+/* health section start */
+.same-bg{
+    background: #f7f9ff;
+}
+.health-section{
+    
+}
+.health-section img {
+    border-radius: 5px;
+}
+.health-text-left {
+    margin-top: 120px;
+}
+.health-text-left h2 {
+    font-size: 33px;
+    font-weight: 600;
+}
+.health-text-left h2 {
+    font-size: 33px;
+    font-weight: 600;
+}
+/* health section end */
+/* learn-section-start */
+.learn-section{}
+.learn-item{
+    height: 300px;
+}
+.learn-img-left {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.learn-img-left img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    top: 0;
+    left: -118px;
+}
+.learn-text-right{
+    width: 60%;
+    padding: 20px;
+}
+
+.learn-text-right h3 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.learn-text-right p {
+    font-size: 15px;
+}
+.two {
+    position: relative !important;
+    top: 0 !important;
+    left: -75px !important;
+}
+.three {
+    position: relative !important;
+    top: -1px !important;
+    left: -26px !important;
+}
+img.foure {
+    position: relative;
+    top: 0 !important;
+    left: -137px !important;
+}
+img.five {
+    position: relative;
+    top: 0 !important;
+    left: -107px !important;
+}
+/* learn-section-end */
+/* look item css start*/
+.look-item{}
+.look-item a{
+    position: relative;
+    display: block;
+}
+.look-item a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(98, 120, 223,.60);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.look-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+/* look item css end */
+/* start section css */
+.start-section{
+    background: #f7f9ff;
+}
+.start-item{
+    background: #fff;
+    padding: 40px;
+    transition: .5s;
+}
+.start-item:hover {
+  
+    box-shadow: 0px 0px 7px 2px #e4d5d5;
+}
+.start-item:hover .start-item-button .btn{
+    background: #6278df;
+    color: #fff;
+}
+.start-item-button a:hover{
+    background: black !important;
+    color: white !important;
+}
+.start-item h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.start-item p{
+    color: #777;
+}
+.start-item ul{
+    list-style: none;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+.start-item ul li{
+    margin-bottom: 13px;
+    padding-top: 7px;
+    font-size: 17px;
+    color: #777;
+}
+.start-item ul li span{
+    color: #6278df;
+    display: inline-block;
+    font-size: 23px;
+    width: 30px;
+    font-weight: 600;
+}
+
+.start-item-button a{
+
+padding: 10px 52px;
+
+font-weight: 600;
+
+background: white;
+
+color: #6278df;
+
+border: 0;
+
+box-shadow: 0px 0px 3px 1px #d4baba;
+}
+/* what section start */
+.what-section{}
+.what-item{}
+.what-item h5{}
+.what-item h2{}
+.what-item span{}
+.what-item p{}
+
+.autor-info {
+    width: 213px;
+}
+.autor-info img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.details{
+    position: relative;
+    top: 17px;
+}
+.details h5{}
+.details p{}
+
+/* what section end */
+/* service-section start */
+.service-section{
+    background:#f7f9ff;
+    padding: 130px ;
+    padding-bottom: 100px;
+}
+.service-section .card{}
+.service-section .card img{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: -89px;
+}
+.service-section .card h2{}
+.service-section .card h5{
+    font-weight: 600;
+    font-size: 18px !important;
+    margin-bottom: 20px;
+}
+.service-section .card p{}
+.service-section .card .btn{
+    transition: .5s;
+}
+.service-section .card .btn:hover{
+    background: #35363a;
+    color: #fff;
+}
+.service-section .card {
+    margin-top: 129px;
+}
+/* service-section end */
+/* write section start */
+.write-section{}
+.write-item {
+    box-shadow: 0px 0px 16px 4px #e0cfcf;
+    padding: 40px;
+    border-radius: 4px;
+    outline: none;
+}
+.write-item .form-control:focus{
+
+}
+
+.write-item h4{}
+.write-item .form-control {
+    font-size: 17px;
+    font-weight: 200;
+}
+.write-item .btn {
+    padding: 9px 39px;
+    background: #6278df;
+    font-weight: 600;
+    transition: .4s;
+}
+.write-item .btn:hover {
+    background: #fff;
+    color: #6278df;
+}
+/* write section end */
+/* footer section star */
+.footer-section{
+    background: #f7f9ff;
+    
+}
+/* footer section end */
+.fa-quote-left:before {
+    content: "\f10d";
+    opacity: .2;
+    font-size: 50px;
+}
+
+/* exta */
+.tuha .btn {
+    font-weight: bold;
+    padding: 6px 25px;
+    transition: .4s;
+    outline: 0;
+}
+.tuha .btn:hover {
+    background: #6278df;
+    color: #fff;
+    box-shadow: 1px 0px 10px 0px #6278df;
+}
